@@ -1,0 +1,4 @@
+ls: cannot access 'asd': No such file or directory
+-rw-r--r-- 1 android android 1532 May 10 14:36 redirect.txt
+ls: cannot access 'asd': No such file or directory
+-rw-r--r-- 1 android android 1532 May 10 14:36 redirect.txt
