@@ -1,0 +1,19 @@
+#!/bin/bash
+echo enter the number
+read n
+reverse=0
+number=$n
+while [ $n -gt 0 ]
+do
+	r=$(expr $n % 10)
+	n=$(expr $n / 10)
+	reverse=$(expr $reverse \* 10 + $r)  
+done
+echo $reverse
+
+if [ $number -eq $reverse ]
+then
+	echo palindrome
+else
+	echo not plaindrome
+fi

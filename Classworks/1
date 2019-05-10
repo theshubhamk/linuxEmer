@@ -1,0 +1,13 @@
+#!/bin/bash
+echo enter the number digit wise
+arr=()
+i=0
+while [ $i -le ${#arr[@]} ]
+do
+	read arr[$i]
+	let i=$i+1
+done
+
+echo ${arr[@]}
+
+
