@@ -1,4 +1,10 @@
 #!/bin/bash
+
+#Written by SHUBHAM KUMAR SINGH
+#Read 'n' and print the greatest Fibonacci number <= n.
+
+
+
 echo enter the fibonacci number n
 read n
 p1=0

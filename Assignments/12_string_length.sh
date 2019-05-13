@@ -1,4 +1,9 @@
 #!/bin/bash
+
+#Written by SHUBHAM KUMAR SINGH
+#script to print the length of each and every string using arrays
+
+
 p=0
 arr=($@)
 count=$#

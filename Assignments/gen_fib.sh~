@@ -1,10 +1,4 @@
 #!/bin/bash
-
-#Written by SHUBHAM KUMAR SINGH
-#script to read 'n' and generate Fibonacci numbers <= n
-
-
-
 echo enter the fibonacci number n
 read n
 p1=0

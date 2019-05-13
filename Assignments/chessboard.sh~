@@ -1,10 +1,4 @@
 #!/bin/bash
-
-
-#Written by SHUBHAM KUMAR SINGH
-#script to print chess board.
-
-
 echo enter a value
 read p
 q=$(expr $p - 4)

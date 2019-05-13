@@ -1,4 +1,14 @@
 #!/bin/bash
+
+#Written by SHUBHAM KUMAR SINGH
+#Read 'n' and generate a pattern given below
+#1
+#1 2
+#1 2 3
+#1 2 3 4
+
+
+
 echo enter a value
 read p
 j=$(expr $p + 1)
