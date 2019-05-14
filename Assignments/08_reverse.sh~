@@ -25,6 +25,6 @@ else
 		done
 		echo the reversed number is $rev
 	else
-		echo error! enter a number having two digits or more
+		echo error! enter a number
 	fi
 fi

@@ -10,6 +10,4 @@ if [ $x -ge 0 -o $x -le 0 -o $y -ge 0 -o $y -le 0 ]
 then
 	echo the sum is 
 	echo $x+$y | bc
-else
-	echo please enter real numbers only
 fi

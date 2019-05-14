@@ -10,7 +10,7 @@ count=$#
 if [ $count -eq 0 ]
 then
 	echo enter a valid string/sentence
-	echo EXAMPLE: bash string_length.sh my name is ram
+	echo EXAMPLE: bash string_count.sh my name is ram
 else
 	while [ $count -gt 0 ]
 	do

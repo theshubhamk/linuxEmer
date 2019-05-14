@@ -21,6 +21,6 @@ else
 			biggest=$arg_element
 		fi
 	done
-	echo the largest number is $biggest
+	echo $biggest
 fi
 
