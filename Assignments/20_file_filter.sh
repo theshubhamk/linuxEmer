@@ -1,7 +1,4 @@
 #!/bin/bash
-#Written by SHUBHAM KUMAR SINGH
-#script  to  print  contents  of  file  from  given  line  number  to  next  given  number  of lines. 
-
 
 if [ $2 -ne 0 -o $1 -ne 0 ]
 then
