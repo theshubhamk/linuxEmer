@@ -38,4 +38,40 @@ case $x in
 		who
 		;;
 	2)
+		pwd
+		;;
+	3)
+		cd
+		pwd
+		;;
+	4)
+		lsb_release -a
+		;;
+	5)
+		pwd
+		;;
+	6)
+		who -u
+		;;
+	7)
+		cd
+		cat /etc/shells
+		;;
+	8)	
+		sudo parted -l
+		;;
+	9)
+		lscpu
+		;;
+	10)	
+		df -h
+		;;
+	11)
+		df -Th
+		;;
+	12)
+		top
+		;;
+esac
+					
 
