@@ -1,16 +1,21 @@
 #!/bin/bash
+
 x=0
 x=$(date | cut -d' ' -f4 | cut -d: -f1)
-echo $x
+#echo $x
 if [ $x -ge 1 -a $x -le 11 ]
 then
-	echo morn
-elif [ $x -ge 13 -a $x -le 19 ]
+	echo Good Morining  `whoami`
+
+elif [ $x -ge 15 -a $x -le 19 ]
 then
-	echo evening
+	echo Good Evening   `whoami`
+
 elif [ $x -gt 19 -a $x -le 24 ]
 then
-	echo night
+	
+	echo Good Night  `whoami`
 else
-	echo noon
+
+	echo Good Afternoon  `whoami`
 fi
