@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Written by SHUBHAM KUMAR SINGH
+#script which will print greetings based on time.
+
 x=0
 x=$(date | cut -d' ' -f4 | cut -d: -f1)
 #echo $x

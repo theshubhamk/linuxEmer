@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#Written by SHUBHAM KUMAR SINGH
+#Display the longest and the shortest user names on the system.
+
+arr=(`cat /etc/passwd | cut -d: -f1`)
+
+count=${#arr[*]}
+biggest=${#arr[0]}
+smallest=${#arr[0]}
+
+for arg in ${arr[*]}
+do
+        ct=(`echo $arg | wc -c`)	
+	if [ $ct -gt $biggest ]
+	then
+		biggest=$ct
+		big=$arg
+	fi
+done
+
+for arg1 in ${arr[*]}
+do
+        dt=(`echo $arg1 | wc -c`)	
+	if [ $dt -lt $smallest ]
+	then
+		smallest=$dt
+		sml=$arg1
+	fi
+done
+
+
+#echo $biggest
+echo the largest user name is--------------'>'    $big
+echo the smallest user name is-------------'>'    $sml

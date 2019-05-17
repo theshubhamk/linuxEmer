@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#Written by SHUBHAM KUMAR SINGH
+#Shell script to convert string lower to upper and upper to lower.
+
+
 echo SELECT THE OPTION 
 echo 1.lower to upper case
 echo 2. upper to lower case

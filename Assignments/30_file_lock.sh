@@ -1,4 +1,9 @@
 #!/bin/bash
+#Written by SHUBHAM KUMAR SINGH
+#script to lock down file permissions for a particular directory
+
+
+
 echo before locking
 cd $1
 ls -l

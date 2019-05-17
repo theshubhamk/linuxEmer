@@ -1,4 +1,8 @@
 #!/bin/bash
+
+#Written by SHUBHAM KUMAR SINGH
+#Given album name and corresponding directory this scripts renames them properly by inserting index numbers
+
 arr=(`find *.jpg`)
 
 let c=${#arr[@]}-1;echo "length=$c"

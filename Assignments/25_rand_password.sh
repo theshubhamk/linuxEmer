@@ -1,4 +1,9 @@
 #!/bin/bash
+#Written by SHUBHAM KUMAR SINGH
+#script for generating random 8-character passwords including alpha numeric
+
+
+
 #if 
 	
 #echo A$^`rand`pg90
