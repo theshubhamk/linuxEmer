@@ -12,8 +12,8 @@ p1=0
 p2=1
 n1=0
 
-arr=($n)
-count=${#arr[*]}
+#arr=($n)
+#count=${#arr[*]}
 if [ $count -eq 0 ]
 then
 	echo error! enter a number 

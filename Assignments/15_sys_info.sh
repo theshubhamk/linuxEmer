@@ -42,7 +42,7 @@ case $x in
 		;;
 	2) 
 		echo Your shell directory
-		pwd
+		echo $SHELL
 		;;
 	3)
 		
