@@ -13,7 +13,7 @@ do
 		echo filesystem $1 is ${arr2[$x]} used and mounted on ${arr3[$x]}
 		let c=$c+1	
 	fi
-			
+
 done
 if [ $c -le 1	 ]
 then	

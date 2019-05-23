@@ -2,16 +2,20 @@
 
 
 
-n=1
-function rec
+c=0
+rec()
 {
-	if [ $n -lt $# ]
+	let c=$c+1
+	arr=($@)
+	if [ $# -eq 0 ]
 	then
-		echo $1
-		rec $n
-		let n=$n+1
+		exit
 	fi
-	
+	echo $1
+	for i in $(seq 1 $#)
+	do
+		arr[`expr $i - 1`]=${arr[$i]}
+	done
+	rec ${arr[@]} 
 }
-
-rec $1
+rec $@
